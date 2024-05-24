@@ -1,0 +1,55 @@
+
+.comments-container {
+    position:relative;
+    top: 30px;
+    left: px;
+    color: #000;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+#comment-form{
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subtexto h3{
+text-align: center;
+color: #ffffffab;
+font-size: 15px;
+margin: 5%;
+}

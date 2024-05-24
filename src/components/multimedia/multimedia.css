@@ -1,0 +1,65 @@
+.Multimedia{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.Multimedia, h1, h4{
+    margin-top: 2%;
+}
+.Multimedia h4{
+    margin-left: 1%;
+}
+.cajaMultimedia{
+    text-align: left;
+    margin-top: 3%;
+}
+.cajaMultimedia, h2, h3, h5{
+    margin-top: 10px;
+}
+.cajaMultimedia h5{
+    color: #585858;
+}
+.galeria{
+    margin: 1%;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
+    overflow: scroll;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    box-shadow: 0px 0px 10px black;
+
+}.galeria img{
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+} 
+.Video{
+    border-radius: 20px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%;
+    box-shadow: 0px 0px 10px black;
+}
+.Video{
+ width: 90%;
+}
+iframe{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#facebook1:hover{
+    color: #0026ff;
+}
+#instagram1:hover{
+    background: linear-gradient(120deg, #0026ff,  #ff00aa, #ff912b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#tiktok1:hover{
+        background: linear-gradient(20deg,  #0399ad, #ff0037);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}

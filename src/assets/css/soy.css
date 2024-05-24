@@ -1,0 +1,171 @@
+.soy{
+    margin: 5%;
+}
+.soy h1{
+    font-size: 40px;
+}
+.soy h4{
+    color: #ffffffc0;
+    margin: 10px;
+    font-size: 20px;
+}
+.galeriaAlan{
+    margin-left: 1%;
+    margin-top: 1%;
+    
+}
+
+.galeriaAlan img{
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+    margin: 2%;
+    
+}
+.estudios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.grados{
+    text-align: center;
+    margin-top: 5%;
+}
+.cajaEscu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(85, 85, 85, 0.644);
+    border-radius: 50px;
+    width: 50%;
+    height: 12vh;
+    margin-top: 5%;
+}
+.cajaUni{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(85, 85, 85, 0.644);
+    border-radius: 50px;
+    width: 50%;
+    height: 11vh;
+    margin-top: 5%;
+}
+.cajaplz {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(85, 85, 85, 0.644);
+    border-radius: 50px;
+    width: 50%;
+    height: 12vh;
+    margin-top: 5%;
+}
+.cajaplz img{
+    border-radius: 50%;
+}
+.cajaSp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(85, 85, 85, 0.644);
+    border-radius: 50px;
+    width: 50%;
+    height: 11vh;
+    margin-top: 5%;
+}
+.txtTrabajo{
+    margin: 5%;
+}
+.Trabajos{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cajaTrabo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(85, 85, 85, 0.644);
+    border-radius: 50px;
+    width: 50%;
+    height: 11vh;
+    margin-top: 1%;
+}
+
+@media (max-width:650px){
+    .soy{
+        text-align: center;
+    }
+    .cajaEscu{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(85, 85, 85, 0.644);
+        border-radius: 50px;
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+    }
+    .cajaUni{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(85, 85, 85, 0.644);
+        border-radius: 50px;
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+    }
+    .cajaplz{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(85, 85, 85, 0.644);
+        border-radius: 50px;
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+    }
+    .cajaSp{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(85, 85, 85, 0.644);
+        border-radius: 50px;
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+    }
+    .txtTrabajo{
+        margin-top: 5%;
+    }
+    .Trabajos{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .cajaTrabo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(85, 85, 85, 0.644);
+        border-radius: 50px;
+        width: 90%;
+        height: 10vh;
+        margin-top: 1%;
+    }
+    .galeriaAlan img{
+        width: 140px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px black;
+        margin: 4%;
+    }
+    
+}

@@ -1,0 +1,25 @@
+
+.line1{
+    width: 90%;
+    margin-top: 80px;
+    border: 1px solid #0000006e;
+    margin-left: 5%;
+    height: 0.5px;
+}
+.textofinal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1%;
+}
+.fin1{
+    margin-top: 3px;
+}
+.fin2{
+    margin-top: 3px;
+}
+.fin3{
+    font-size: 8px;
+    margin-top: 3px;
+    color: #ffffffa1;
+}

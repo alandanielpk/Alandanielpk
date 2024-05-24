@@ -1,0 +1,85 @@
+.Desarrollador{
+    margin: 5%;
+}
+.Desarrollador h2 {
+    font-size: 30px;
+
+}
+.Desarrollador h4{
+    margin-top: 1%;
+}
+.RedesDesa{
+    margin-top: 2%;
+    font-size: 30px;
+}
+.RedesDesa a i{
+    filter: drop-shadow(0px 0px 1px rgb(54, 54, 54));
+    margin-left: 10px;
+    transition: 0.5s;
+}
+#github1:hover{
+    color: blueviolet;
+}
+#in1:hover{
+    color: rgb(58, 58, 245);
+}
+.titulodveloper2{
+    margin-top: 3%;
+}
+.cajadesarrollo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black; 
+    margin-top: 3%;
+    background-color: rgb(35, 35, 35);
+} 
+.cajadesarrollo h3{
+    margin-top: 1%;
+    font-size: 35px;
+}
+.cajadesarrollo p{
+    margin-top: 1%;
+    font-size: 20px;
+}
+.front{
+    font-size: 12px;
+    margin-top: 1%;
+    color: #505050;
+}
+
+.logos a img{
+    width: 50px;
+    margin: 3%;
+    margin-top: 2%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    transition: 0.5s;
+    
+  
+}
+.logos a img:hover{
+    filter: drop-shadow(1px 1px 10px rgba(104, 104, 104, 0.932));
+}
+.caja_Creaciones{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black; 
+    margin-top: 3%;
+    background-color: rgb(48, 48, 48);
+    
+}
+.caja_Creaciones a{
+    width: 100px;
+    height: 100px;
+    margin: 3%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    transition: 0.5s ease;
+}
+.caja_Creaciones a:hover{
+    filter: drop-shadow(0px 0px 5px rgb(241, 241, 241));
+}
