@@ -23,7 +23,7 @@ const desarrollador = () => {
             <a target='_blank' href="https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS"><img src='./css.png' width={100} /></a>
             <a target='_blank' href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript"><img src='./javascript_icon_130900.png' width={100}/></a>
             <a target='_blank' href="https://es.react.dev/"><img src='./react_original_logo_icon_146374.png' width={100} /></a>
-            <a target='_blank' href="https://tailwindcss.com/"><img src="/public/tailwind-css.png"/></a>
+            <a target='_blank' href="https://tailwindcss.com/"><img src="./tailwind-css.png"/></a>
             <a target='_blank' href="https://angular.io/"><img src="./angular.png" /></a>
             <a target='_blank' href="https://nodejs.org/en"><img src='./file_type_node_icon_130301.png' width={100}/></a>
             <a target='_blank' href="https://www.java.com/es/"><img src='./java.png' width={100} /></a>
