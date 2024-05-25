@@ -52,18 +52,18 @@ display: none;
 @media (max-width:600px){
     .nav_items{
         position: relative;
-        top: 160px;
+        top: 150px;
         left: 170px;
         box-shadow: 0px 0px 10px black;
-        border-radius: 10px;
+        border-radius: 7px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: right;
         font-size: 23px;
-        width: 150px;
-        height: 230px;
+        width: 130px;
+        height: 200px;
         transform: translatey(-500%);
         z-index: 100;
         background-color: rgb(30, 30, 30);
@@ -72,12 +72,12 @@ display: none;
     .nav_items a{
         display: flex;
         align-items: center;
-        justify-content: center;
-        border-radius: 15px;
+        border-radius: 5px;
         font-size: 20px;
-        width: 105px;
-        margin-top: 30px;
-        filter: drop-shadow(2px 3px 1px black);
+        margin-top: 10px;
+        width: 100px;
+        height: 30px;
+
     }
     .nav_items a:hover{
         background-color: aliceblue;
@@ -98,57 +98,61 @@ display: none;
         position: relative;
         width: 30px;
         height: 3px;
-        background-color: rgb(201, 201, 201);
+        background-color: rgb(255, 255, 255);
         margin-bottom: 7px;
         border-radius: 2px;
         transform-origin: 5px 0px;
         transition: all 0.2s linear;
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
     .nav_toggle.open > span{
         transform: rotate(45deg) translate(0px, 0px);
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
     .nav_toggle.open > span:nth-child(2){
         display: none;
     }
     .nav_toggle.open > span:nth-child(3){
         transform: rotate(-45deg) translate(-5px, 1px);
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
     
 }
 @media (max-width: 500px){
     .nav_items{
-        position: absolute;
-        top: 75px;
-        left: 325px;
+        position: relative;
+        top: 150px;
+        left: 160px;
         box-shadow: 0px 0px 10px black;
-        border-radius: 10px;
+        border-radius: 7px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: right;
         font-size: 23px;
-        width: 150px;
-        height: 230px;
+        width: 130px;
+        height: 200px;
         transform: translatey(-500%);
-        z-index: 200;
+        z-index: 100;
         background-color: rgb(30, 30, 30);
-
 
     }
     .nav_items a{
         display: flex;
         align-items: center;
-        justify-content: center;
-        border-radius: 15px;
-        width: 105px;
+        border-radius: 5px;
         font-size: 20px;
-        filter: drop-shadow(2px 3px 1px black);
+        margin-top: 10px;
+        width: 100px;
+        height: 30px;
+
     }
     .nav_items a:hover{
         background-color: aliceblue;
         color: rgb(0, 0, 0);
     }
+    
     .nav_items.open{
         transform: rotatey(0) !important;
     }
@@ -156,59 +160,67 @@ display: none;
         display: flex !important;
         flex-direction: column;
         margin: 15px;
+        cursor: pointer;
+     
     }
     .nav_toggle span{
+        position: relative;
         width: 30px;
         height: 3px;
-        background-color: rgb(202, 202, 202);
+        background-color: rgb(255, 255, 255);
         margin-bottom: 7px;
         border-radius: 2px;
         transform-origin: 5px 0px;
         transition: all 0.2s linear;
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
     .nav_toggle.open > span{
         transform: rotate(45deg) translate(0px, 0px);
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
     .nav_toggle.open > span:nth-child(2){
         display: none;
     }
     .nav_toggle.open > span:nth-child(3){
         transform: rotate(-45deg) translate(-5px, 1px);
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
 }
 @media (max-width: 450px){
     .nav_items{
-        position: absolute;
-        top: 75px;
-        left: 65%;
-        backdrop-filter: blur(30px);
+        position: relative;
+        top: 150px;
+        left: 110px;
         box-shadow: 0px 0px 10px black;
-        border-radius: 10px;
+        border-radius: 7px;
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: right;
         font-size: 23px;
-        width: 120px;
-        height: 230px;
+        width: 130px;
+        height: 200px;
         transform: translatey(-500%);
         z-index: 100;
         background-color: rgb(30, 30, 30);
+
     }
     .nav_items a{
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 105px;
-        border-radius: 15px;
+        border-radius: 5px;
         font-size: 20px;
-        filter: drop-shadow(2px 3px 1px black);
+        margin-top: 10px;
+        width: 100px;
+        height: 30px;
     }
     .nav_items a:hover{
         background-color: aliceblue;
         color: rgb(0, 0, 0);
     }
+    
     .nav_items.open{
         transform: rotatey(0) !important;
     }
@@ -216,23 +228,29 @@ display: none;
         display: flex !important;
         flex-direction: column;
         margin: 15px;
+        cursor: pointer;
+     
     }
     .nav_toggle span{
+        position: relative;
         width: 30px;
         height: 3px;
-        background-color: rgb(202, 202, 202);
-        margin-bottom: 5px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 7px;
         border-radius: 2px;
         transform-origin: 5px 0px;
         transition: all 0.2s linear;
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
     .nav_toggle.open > span{
         transform: rotate(45deg) translate(0px, 0px);
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
     .nav_toggle.open > span:nth-child(2){
         display: none;
     }
     .nav_toggle.open > span:nth-child(3){
         transform: rotate(-45deg) translate(-5px, 1px);
+        filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
     }
 }
