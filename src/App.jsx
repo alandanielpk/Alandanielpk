@@ -29,8 +29,8 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path="/Trickin" element={<Trickin/>}/>
-        <Route path="/Calculadora" element={<Calculadora/>}/>
+        <Route path="/desarrollador/Trickin" element={<Trickin/>}/>
+        <Route path="/desarrollador/Calculadora" element={<Calculadora/>}/>
         <Route path="" element/>
       </Routes>
 
