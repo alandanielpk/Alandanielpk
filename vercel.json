@@ -21,11 +21,11 @@
             "dest":"/"
         },
         {
-            "src":"/desarrollador/Trickin",
+            "src":"/Trickin",
             "dest":"/"
         },
         {
-            "src":"/desarrollador/Calculadora",
+            "src":"/Calculadora",
             "dest":"/"
         }
     ]

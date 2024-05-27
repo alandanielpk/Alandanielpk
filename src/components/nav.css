@@ -86,12 +86,12 @@ a .imgen{
     margin-left:-5%;
 }
 
-.nav_items a{
+.nav_items a i{
  margin: 15px;
  position: relative;
  transition: 0.5s;
- font-size: 19px;
- font-weight: 100;
+ font-size: 20px;
+ font-weight: 500;
 }
 .Multim{
  display: none;
@@ -100,7 +100,7 @@ a .imgen{
 display: none;
 }
 
-.nav_items a:hover{
+.nav_items a i:hover {
     color: rgb(143, 143, 143);
 }
 
@@ -111,36 +111,53 @@ display: none;
 @media (max-width:600px){
     .nav_items{
         position: relative;
-        top: 160px;
-        left: 170px;
+        top: 180px;
+        left: 155px;
         box-shadow: 0px 0px 10px black;
         border-radius: 7px;
         display: flex;
-        justify-content: center;
+        margin-top: -10px;
         align-items: center;
         flex-direction: column;
         text-align: right;
         font-size: 20px;
-        width: 130px;
-        height: 230px;
+        width: 160px;
+        height: 270px;
         transform: translatey(-500%);
         z-index: 100;
         background-color: rgb(30, 30, 30);
 
     }
-    .nav_items a{
+    .nav_items i{
         display: flex;
+        text-align: left;
         align-items: center;
         border-radius: 3px;
-        font-size: 17px;
-        margin-top: 10px;
-        margin-left: 21px;
-        width: 110px;
-        height: 23px;
-        transition: 0.2s all;
-
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 165px;
+        height: 25px;
+        transition: 0.3s all;
+        position: relative;
+        top: -2px;    
     }
-    .nav_items a:hover{
+
+    .nav_items a  {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 165px;
+        height: 25px;
+        transition: 0.3s all;
+        position: relative;
+        top: -9px;    
+    }
+    .nav_items a i:hover{
         background-color: aliceblue;
         color: rgb(0, 0, 0);
     }
@@ -182,8 +199,8 @@ display: none;
 @media (max-width: 500px){
     .nav_items{
         position: relative;
-        top: 160px;
-        left: 160px;
+        top: 180px;
+        left: 150px;
         box-shadow: 0px 0px 10px black;
         border-radius: 7px;
         display: flex;
@@ -192,25 +209,28 @@ display: none;
         flex-direction: column;
         text-align: right;
         font-size: 23px;
-        width: 130px;
-        height: 230px;
+        width: 160px;
+        height: 270px;
         transform: translatey(-500%);
         z-index: 100;
         background-color: rgb(30, 30, 30);
 
     }
-    .nav_items a{
+    .nav_items a i{
         display: flex;
+        text-align: left;
         align-items: center;
         border-radius: 3px;
-        font-size: 17px;
-        margin-top: 10px;
-        margin-left: 21px;
-        width: 110px;
-        height: 23px;
-        transition: 0.2s all;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 165px;
+        height: 25px;
+        transition: 0.3s all;
+        position: relative;
+        top: -5px;    
     }
-    .nav_items a:hover{
+    .nav_items a i:hover{
         background-color: aliceblue;
         color: rgb(0, 0, 0);
     }
@@ -251,8 +271,8 @@ display: none;
 @media (max-width: 450px){
     .nav_items{
         position: relative;
-        top: 160px;
-        left: 110px;
+        top: 180px;
+        left: 95px;
         box-shadow: 0px 0px 10px black;
         border-radius: 7px;
         display: flex;
@@ -261,25 +281,29 @@ display: none;
         flex-direction: column;
         text-align: right;
         font-size: 23px;
-        width: 130px;
-        height: 230px;
+        width: 160px;
+        height: 270px;
         transform: translatey(-500%);
         z-index: 100;
         background-color: rgb(30, 30, 30);
 
+
     }
-    .nav_items a{
+    .nav_items a i{
         display: flex;
         align-items: center;
+        text-align: left;
         border-radius: 3px;
-        font-size: 17px;
-        margin-top: 10px;
-        margin-left: 21px;
-        width: 110px;
-        height: 23px;
-        transition: 0.2s all;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 165px;
+        height: 25px;
+        transition: 0.3s all;
+        position: relative;
+        top: -5px;    
     }
-    .nav_items a:hover{
+    .nav_items a i:hover{
         background-color: aliceblue;
         color: rgb(0, 0, 0);
     }
