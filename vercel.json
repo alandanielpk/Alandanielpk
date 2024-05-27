@@ -1,0 +1,32 @@
+{
+    "routes": [
+        {
+            "src":"/",
+            "dest":"/"
+        },
+        {
+            "src":"/soy",
+            "dest":"/"    
+        },
+        {
+            "src":"/comentarC",
+            "dest":"/"
+        },
+        {
+            "src":"/multimedia",
+            "dest":"/"
+        },
+        {
+            "src":"/desarrollador",
+            "dest":"/"
+        },
+        {
+            "src":"/desarrollador/Trickin",
+            "dest":"/"
+        },
+        {
+            "src":"/desarrollador/Calculadora",
+            "dest":"/"
+        }
+    ]
+}
