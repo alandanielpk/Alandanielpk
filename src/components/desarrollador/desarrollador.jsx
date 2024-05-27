@@ -39,8 +39,8 @@ const desarrollador = () => {
       </div>
             <h1>Trabajos</h1>
       <div className='caja_Creaciones'>
-            <Link to="/desarrollador/Trickin"><img src="./tic-tac-toe.png" width={100}/></Link>
-            <Link to="/desarrollador/Calculadora"><img src="./calculadora.png" width={100}/></Link>
+            <Link to="/Trickin"><img src="./tic-tac-toe.png" width={100}/></Link>
+            <Link to="/Calculadora"><img src="./calculadora.png" width={100}/></Link>
       </div>
 
       
