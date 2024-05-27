@@ -16,38 +16,38 @@ const soy = () => {
      </div>
      <div className="line1"></div>
      <div className="grados">
-        <h2>Estudios</h2>
+        <h2 className='textocolegio'>Estudios</h2>
         <div className="estudios">
-          <div className="cajaEscu">
+          <a  target='_blank' href='https://www.iemerceditasgomezm.edu.co' className="cajaEscu">
             <img src='./IEMerceditasGomezM.png' width={40}/>
             <h4>Merceditas Gomez</h4>
             <h6>bachiller</h6>
-          </div>
-          <div className="cajaUni">
+          </a>
+          <a  target='_blank' href='https://www.cesde.edu.co' className="cajaUni">
             <img src='./logo-Cesde-2023.svg' width={120} />
             <h4>Cesde</h4>
-            <h6>Tecnico</h6>
-          </div>
-          <div className="cajaplz">
+            <h6>Tecnologia</h6>
+          </a>
+          <a  target='_blank' href='https://platzi.com/' className="cajaplz">
             <img src='./6m8_I1pN_400x400.jpg' width={40}/>
             <h4>Platzi</h4>
             <h6>Aprendizaje</h6>
 
-          </div>
-          <div className="cajaSp">
+          </a>
+          <a  target='_blank' href='https://academy.sophossolutions.com/' className="cajaSp">
             <img src='./header-logo.png' width={100}/>
             <h4>SPAcademy</h4>
             <h6>Aprendizaje</h6>
-          </div>
+          </a>
 
         </div>
         <h2 className="txtTrabajo">Trabajos</h2>
         <div className="Trabajos">
-          <div className="cajaTrabo">
-            <img src='./SOPHOS-SOLUTIONS-CONGRESO-AMERICA-DIGITAL-MEXICO.png' width={100}/>
+          <a  target='_blank' href='https://www.sophossolutions.com/es/' className="cajaTrabo">
+            <img src='/sophos_GFT.png' width={100}/>
             <h4>Sophos</h4>
             <h6>Trabajo Act.</h6>
-          </div>
+          </a>
         </div>
      </div>
     </header>

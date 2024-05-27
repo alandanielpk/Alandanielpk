@@ -31,15 +31,14 @@
     justify-content: center;
     align-items: center;
     padding: 10px 15px;
-    gap: 15px;
+    gap: 5px;
     background-color: #181717;
     outline: 3px #181717 solid;
     outline-offset: -3px;
     border-radius: 10px;
-    border: none;
     cursor: pointer;
     transition: 400ms;
-    width: 150px;
+    width: 140px;
   }
   
   .button .text {
@@ -50,11 +49,11 @@
   }
   
   .button svg path {
-    transition: 400ms;
+    transition: 500ms;
   }
   
   .button:hover {
-    background-color:  blueviolet;
+    background-color:  rgb(94, 0, 182);
   }
   
   .button:hover .text {

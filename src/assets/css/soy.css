@@ -25,41 +25,75 @@
 .estudios{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
 }
+.textocolegio{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%px;
+}
+
 .grados{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1%;
+}
+.textclases{
+    text-align: left;
+    margin-left: 5%;
 }
 .cajaEscu{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(85, 85, 85, 0.644);
-    border-radius: 50px;
-    width: 50%;
-    height: 12vh;
+    border-radius: 10px;
+    width: 80%;
+    height: 80px;
     margin-top: 5%;
+    background-color: rgb(29, 29, 29);
+    transition: all 0.3s; 
+    box-shadow: 0 0px 16px rgb(0, 0, 0);
+
+} 
+.cajaEscu:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 16px rgb(231, 231, 231);
+
 }
 .cajaUni{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(85, 85, 85, 0.644);
-    border-radius: 50px;
-    width: 50%;
-    height: 11vh;
+    border-radius: 10px;
+    width: 80%;
+    height: 80px;
     margin-top: 5%;
+    background-color: rgb(29, 29, 29);
+    transition: 0.3s all;
+    box-shadow: 0 0px 16px rgb(0, 0, 0);
+}
+.cajaUni:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 16px rgb(114, 0, 99);
+
 }
 .cajaplz {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(85, 85, 85, 0.644);
-    border-radius: 50px;
-    width: 50%;
-    height: 12vh;
+    border-radius: 10px;
+    width: 80%;
+    height: 80px;
     margin-top: 5%;
+    background-color: rgb(29, 29, 29);
+    transition: 0.3s all;
+    box-shadow: 0 0px 16px rgb(0, 0, 0);
+
+}
+.cajaplz:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 16px rgb(0, 163, 49);
+
 }
 .cajaplz img{
     border-radius: 50%;
@@ -68,14 +102,23 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(85, 85, 85, 0.644);
-    border-radius: 50px;
-    width: 50%;
-    height: 11vh;
+    border-radius: 10px;
+    width: 80%;
+    height: 80px;
     margin-top: 5%;
+    background-color: rgb(29, 29, 29);
+    transition: 0.3s all;
+    box-shadow: 0 0px 16px rgb(0, 0, 0);
+}
+.cajaSp:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 16px rgb(99, 0, 99);
+
 }
 .txtTrabajo{
-    margin: 5%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 .Trabajos{
     text-align: center;
@@ -89,11 +132,19 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(85, 85, 85, 0.644);
-    border-radius: 50px;
-    width: 50%;
-    height: 11vh;
-    margin-top: 1%;
+    border-radius: 10px;
+    width: 80%;
+    height: 80px;
+    margin-top: 5%;
+    background-color: rgb(29, 29, 29);
+    transition: 0.3s all;
+    box-shadow: 0 0px 16px rgb(0, 0, 0);
+
+}
+.cajaTrabo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 16px rgb(43, 0, 100);
+
 }
 
 @media (max-width:650px){
@@ -104,41 +155,45 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: rgba(85, 85, 85, 0.644);
-        border-radius: 50px;
-        width: 90%;
-        height: 10vh;
+        border-radius: 10px;
+        width: 80%;
+        height: 80px;
         margin-top: 5%;
+        background-color: rgb(29, 29, 29);
     }
     .cajaUni{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: rgba(85, 85, 85, 0.644);
-        border-radius: 50px;
-        width: 90%;
-        height: 10vh;
+        border-radius: 10px;
+        width: 80%;
+        height: 80px;
         margin-top: 5%;
+        background-color: rgb(29, 29, 29);
     }
     .cajaplz{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: rgba(85, 85, 85, 0.644);
-        border-radius: 50px;
-        width: 90%;
-        height: 10vh;
+        border-radius: 10px;
+        width: 80%;
+        height: 80px;
         margin-top: 5%;
+        background-color: rgb(29, 29, 29);
     }
     .cajaSp{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: rgba(85, 85, 85, 0.644);
-        border-radius: 50px;
-        width: 90%;
-        height: 10vh;
+        border-radius: 10px;
+        width: 80%;
+        height: 80px;
         margin-top: 5%;
+        background-color: rgb(29, 29, 29);
+        font-size: 14px;
+    }
+    .cajaSp img{
+        width: 80px;
     }
     .txtTrabajo{
         margin-top: 5%;
@@ -155,11 +210,11 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: rgba(85, 85, 85, 0.644);
-        border-radius: 50px;
-        width: 90%;
-        height: 10vh;
-        margin-top: 1%;
+        border-radius: 10px;
+        width: 80%;
+        height: 80px;
+        margin-top: 5%;
+        background-color: rgb(29, 29, 29);
     }
     .galeriaAlan img{
         width: 140px;
