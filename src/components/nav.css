@@ -3,6 +3,7 @@
     color: aliceblue;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 500;
+    
 }
 .navbar{
     width: 100%;
@@ -32,6 +33,7 @@
   transition-duration: 0.3s ;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.897);
   background-color: var(--af-white);
+  
 
 }
 .nav_logo:hover{
