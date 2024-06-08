@@ -143,7 +143,28 @@
 }
 .cajaTrabo:hover{
     transform: scale(1.05);
-    box-shadow: 0 0px 16px rgb(43, 0, 100);
+    box-shadow: 0 0px 16px rgb(59, 0, 136);
+
+}
+.cajaTrabo2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 80px;
+    margin-top: 5%;
+    background-color: rgb(29, 29, 29);
+    transition: 0.3s all;
+    box-shadow: 0 0px 16px rgb(0, 0, 0);
+
+}
+.cajaTrabo2 img{
+    border-radius: 50%;
+}
+.cajaTrabo2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 16px rgb(0, 68, 255);
 
 }
 

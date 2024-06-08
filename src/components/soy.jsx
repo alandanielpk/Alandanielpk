@@ -44,8 +44,13 @@ const soy = () => {
         <h2 className="txtTrabajo">Trabajos</h2>
         <div className="Trabajos">
           <a  target='_blank' href='https://www.sophossolutions.com/es/' className="cajaTrabo">
-            <img src='/sophos_GFT.png' width={100}/>
+            <img src='/sophos_GFT.png' width={110}/>
             <h4>Sophos</h4>
+            <h6>Trabajo Act.</h6>
+          </a>
+          <a  target='_blank' href='https://web.delenofincorpifc.com' className="cajaTrabo2">
+            <img src='/DelenoIFC_logo.png' width={70}/>
+            <h4>Deleno IFC</h4>
             <h6>Trabajo Act.</h6>
           </a>
         </div>
