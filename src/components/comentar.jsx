@@ -23,6 +23,7 @@ const comentar = () => {
             Estare pediente de tu mensaje.
         </h3>
     </div>
+    <div><a href="https://www.mediafire.com/file/qgni9w6pibqurfs/pantalla.rar/file">pantalla</a></div>
     </header>
     
     
