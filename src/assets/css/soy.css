@@ -159,14 +159,6 @@
     box-shadow: 0 0px 16px rgb(0, 0, 0);
 
 }
-.cajaTrabo2 img{
-    border-radius: 50%;
-}
-.cajaTrabo2:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0px 16px rgb(0, 68, 255);
-
-}
 
 @media (max-width:650px){
     .soy{

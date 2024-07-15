@@ -48,11 +48,6 @@ const soy = () => {
             <h4>Sophos</h4>
             <h6>Trabajo Act.</h6>
           </a>
-          <a  target='_blank' href='https://web.delenofincorpifc.com' className="cajaTrabo2">
-            <img src='/DelenoIFC_logo.png' width={70}/>
-            <h4>Deleno IFC</h4>
-            <h6>Trabajo Act.</h6>
-          </a>
         </div>
      </div>
     </header>
