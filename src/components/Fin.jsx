@@ -1,12 +1,13 @@
 import '../assets/css/textfin.css'
 
 const textfin = () => {
-  return (
-    <div className='finaltxt'>
-        <div className='line1'></div>
-  <div className='git'>
+  return (  
   
-    </div>      
+  <div className='finaltxt'>
+        <div className='line1'></div>
+      <div className='git'>
+  
+  </div>      
 
   <div className='final'>
 
