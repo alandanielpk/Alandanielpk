@@ -15,7 +15,7 @@ const Nav = () => {
             <div className='links'>
             <Link to="/"><i className='bx bx-home'></i>Home</Link>
             <Link to="https://alanredes.carrd.co/" target='_blank' ><i className='bx bx-globe'></i></Link>
-            <a href="src/assets/pdf/HV-HOJADEVIDAALANLONDOÑO.pdf" target='_blank'><i className='bx bx-news'></i>Cv</a>
+            <a href="/HV-HOJADEVIDAALANLONDOÑO.pdf" target='_blank'><i className='bx bx-news'></i>Cv</a>
             <Link to="/comentar"><i className='bx bx-message-rounded-error'></i>Comments</Link>
             <Link className='Desarr' to="/desarrollador"><i className='bx bx-code-alt'></i>Desarrollador</Link>
             <Link className='Multim' to="/multimedia"><i className='bx bxs-pyramid'></i>Multimedia</Link>
