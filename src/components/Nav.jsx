@@ -13,12 +13,12 @@ const Nav = () => {
         </div>
         <div className={`nav_items ${isOpen && "open"}`}>
             <div className='links'>
-            <Link to="/"><i className='bx bx-home'>Home</i></Link>
-            <Link to="https://alanredes.carrd.co/" target='_blank' ><i className='bx bx-globe'>Networks</i></Link>
-            <Link to="https://drive.google.com/file/d/15n3w70jqjvZoFP2ZL5xcNTKR0MArqsAL/view?usp=sharing" target='_blank'><i className='bx bx-news'>Cv</i></Link>
-            <Link to="/comentar"><i className='bx bx-message-rounded-error'>Comments</i></Link>
-            <Link className='Desarr' to="/desarrollador"><i className='bx bx-code-alt'>Desarrollador</i></Link>
-            <Link className='Multim' to="/multimedia"><i className='bx bxs-pyramid'>Multimedia</i></Link>
+            <Link to="/"><i className='bx bx-home'></i>Home</Link>
+            <Link to="https://alanredes.carrd.co/" target='_blank' ><i className='bx bx-globe'></i></Link>
+            <a href="src/assets/pdf/HV-HOJADEVIDAALANLONDOÑO.pdf" target='_blank'><i className='bx bx-news'></i>Cv</a>
+            <Link to="/comentar"><i className='bx bx-message-rounded-error'></i>Comments</Link>
+            <Link className='Desarr' to="/desarrollador"><i className='bx bx-code-alt'></i>Desarrollador</Link>
+            <Link className='Multim' to="/multimedia"><i className='bx bxs-pyramid'></i>Multimedia</Link>
 
             </div>
         </div>
@@ -29,6 +29,8 @@ const Nav = () => {
         </div>
     </header>
   )
+
+
 }
 
 export default Nav

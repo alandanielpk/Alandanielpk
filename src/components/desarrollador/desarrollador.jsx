@@ -28,19 +28,15 @@ const desarrollador = () => {
             <a target='_blank' href="https://nodejs.org/en"><img src='./file_type_node_icon_130301.png' width={100}/></a>
             <a target='_blank' href="https://www.java.com/es/"><img src='./java.png' width={100} /></a>
             <a target='_blank' href="https://spring.io/projects/spring-boot"><img src='./springboot.png' width={100} /></a>
-            <a target='_blank' href="https://www.python.org/"><img src='./python.png' width={100} /></a>
-            <a target='_blank' href="https://www.djangoproject.com/"><img src='./django.png' width={100}/></a>
-            <a target='_blank' href="https://azure.microsoft.com/es-mx/products/azure-sql/?ef_id=_k_2159255e28521b85977843673ccafb9c_k_&OCID=AIDcmm3804ythc_SEM__k_2159255e28521b85977843673ccafb9c_k_&msclkid=2159255e28521b85977843673ccafb9c"><img src='./SQL.png' width={100} /></a>
             <a target='_blank' href="https://git-scm.com/"><img src='./git.png' width={100}/></a>
             <a target='_blank' href="https://github.com/"><img src='./github.png' width={100} /></a>
-            <a target='_blank' href="https://www.docker.com/"><img src='./docker.png'width={100}/></a>
             <a target='_blank' href="https://www.figma.com/"><img src='./figma.png' width={100} /></a>
           </div>
       </div>
             <h1>Trabajos</h1>
       <div className='caja_Creaciones'>
-            <Link to="/desarrollador/Trickin"><img src="./tic-tac-toe.png" width={100}/></Link>
-            <Link to="/desarrollador/Calculadora"><img src="./calculadora.png" width={100}/></Link>
+        <a href="https://www.bloomify.tech/" target='_blank'><img src="/bloomify-logo.png" alt="" width={100} /></a>
+        <a href="https://www.primecloudtv.com/" target='_blank'><img src="/prime-clou.png" alt="" width={150} /></a>
       </div>
 
       

@@ -21,12 +21,12 @@ const soy = () => {
           <a  target='_blank' href='https://www.iemerceditasgomezm.edu.co' className="cajaEscu">
             <img src='./IEMerceditasGomezM.png' width={40}/>
             <h4>Merceditas Gomez</h4>
-            <h6>bachiller</h6>
+            <h6>Primaria / bachiller</h6>
           </a>
           <a  target='_blank' href='https://www.cesde.edu.co' className="cajaUni">
             <img src='./logo-Cesde-2023.svg' width={120} />
             <h4>Cesde</h4>
-            <h6>Tecnologia</h6>
+            <h6>Tecnica</h6>
           </a>
           <a  target='_blank' href='https://platzi.com/' className="cajaplz">
             <img src='./6m8_I1pN_400x400.jpg' width={40}/>
@@ -46,9 +46,15 @@ const soy = () => {
           <a  target='_blank' href='https://www.sophossolutions.com/es/' className="cajaTrabo">
             <img src='/sophos_GFT.png' width={110}/>
             <h4>Sophos</h4>
-            <h6>Trabajo Act.</h6>
+            <h6>Praticas</h6>
+          </a>
+          <a  target='_blank' href='https://www.bloomify.tech/' className="cajaTrabo3">
+            <img src='/bloomify-logo.png' width={80}/>
+            <h4>Bloomify</h4>
+            <h6></h6>
           </a>
         </div>
+        
      </div>
     </header>
   )
