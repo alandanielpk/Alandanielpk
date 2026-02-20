@@ -1,16 +1,25 @@
-## Hi there 👋
+## 👋 Hola, soy Alan
 
-<!--
-**alandanielpk/Alandanielpk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Frontend Developer Freelance  
+Me especializo en construir interfaces web modernas, rápidas y optimizadas para rendimiento y conversión.
 
-Here are some ideas to get you started:
+### 🛠 Stack
+- React + Vite
+- Next.js
+- Astro
+- Tailwind CSS
+- JavaScript (ES6+)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Qué puedo hacer por ti
+- Landing pages de alto rendimiento
+- Sitios web modernos y responsivos
+- Frontend optimizado para SEO y velocidad
+- Interfaces limpias con enfoque UX/UI
+
+### 📂 Proyectos
+- 🌐 Portfolio: https://alandanielpk.vercel.app BETA
+- 💼 Proyectos reales en mis repositorios
+
+### 📬 Contacto
+📧 alandaniellon01@gmail.com  
+📍 Colombia | Trabajo remoto
