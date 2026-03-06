@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    font-family: theme("fontFamily.body");
+    background-color: #020617;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-canvas text-slate-100 antialiased;
+    background-image:
+      radial-gradient(circle at top left, rgba(251, 191, 36, 0.14), transparent 30%),
+      radial-gradient(circle at top right, rgba(34, 197, 94, 0.12), transparent 28%),
+      linear-gradient(180deg, rgba(15, 23, 42, 0.96) 0%, rgba(2, 6, 23, 1) 100%);
+  }
+
+  ::selection {
+    @apply bg-amber-300 text-slate-950;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: theme("fontFamily.display");
+  }
+
+  a,
+  button,
+  summary {
+    @apply transition duration-200;
+  }
+
+  img {
+    @apply block max-w-full;
+  }
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16;
+  }
+
+  .panel {
+    @apply rounded-[2rem] border border-white/10 bg-white/5 shadow-soft backdrop-blur;
+  }
+
+  .eyebrow {
+    @apply inline-flex rounded-full border border-amber-300/20 bg-amber-300/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.32em] text-amber-200;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-amber-300 px-5 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-amber-400/20 hover:-translate-y-0.5 hover:bg-amber-200;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white hover:-translate-y-0.5 hover:border-amber-200/40 hover:bg-white/10;
+  }
+
+  .nav-link {
+    @apply rounded-full px-3 py-2 text-sm font-semibold text-slate-300 hover:bg-white/5 hover:text-white;
+  }
+
+  .nav-link-active {
+    @apply bg-white/10 text-white;
+  }
+
+  .pill {
+    @apply inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-slate-200;
+  }
+
+  .info-card {
+    @apply panel p-6;
+  }
+
+  .social-link {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2.5 text-sm font-medium text-slate-200 hover:border-amber-200/40 hover:bg-white/10 hover:text-white;
+  }
+
+  .footer-icon-link {
+    @apply inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-slate-200 hover:-translate-y-0.5 hover:border-amber-200/40 hover:bg-white/10 hover:text-amber-200;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+
+  .field {
+    @apply w-full rounded-2xl border border-white/10 bg-slate-950/70 px-4 py-3 text-slate-100 placeholder:text-slate-500 focus:border-amber-200/40 focus:outline-none focus:ring-2 focus:ring-amber-200/20;
+  }
+}

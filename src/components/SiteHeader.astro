@@ -1,0 +1,72 @@
+---
+import { navLinks, siteMeta } from "../data/site.js";
+
+const { pathname } = Astro.props;
+
+const isActive = (href) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
+---
+
+<header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/75 backdrop-blur-xl">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+    <a href="/soy" class="flex min-w-0 items-center gap-3">
+      <img
+        src="/Alan.jpg"
+        alt="Alan Daniel"
+        class="h-12 w-12 rounded-full border border-white/10 object-cover shadow-lg shadow-slate-950/50"
+      />
+      <div class="min-w-0">
+        <p class="truncate text-sm font-semibold uppercase tracking-[0.3em] text-amber-200">
+          {siteMeta.title}
+        </p>
+        <p class="truncate text-sm text-slate-400">Software, multimedia y creatividad</p>
+      </div>
+    </a>
+
+    <nav class="hidden items-center gap-1 md:flex">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={["nav-link", isActive(link.href) && "nav-link-active"]}
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="hidden items-center gap-3 md:flex">
+      <a href="/alan-daniel-londono-cv.pdf" target="_blank" rel="noreferrer" class="btn-primary">
+        Ver CV
+      </a>
+    </div>
+
+    <details class="relative md:hidden">
+      <summary class="list-none rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-slate-100 marker:content-none hover:bg-white/10">
+        Menu
+      </summary>
+      <div class="absolute right-0 top-[calc(100%+0.75rem)] w-72 rounded-[1.75rem] border border-white/10 bg-slate-950/95 p-3 shadow-soft">
+        <nav class="flex flex-col gap-1">
+          {
+            navLinks.map((link) => (
+              <a
+                href={link.href}
+                class:list={[
+                  "rounded-2xl px-4 py-3 text-sm font-medium text-slate-200 hover:bg-white/5 hover:text-white",
+                  isActive(link.href) && "bg-white/10 text-white",
+                ]}
+              >
+                {link.label}
+              </a>
+            ))
+          }
+        </nav>
+        <div class="mt-3 grid gap-2">
+          <a href="/alan-daniel-londono-cv.pdf" target="_blank" rel="noreferrer" class="btn-primary">
+            Ver CV
+          </a>
+        </div>
+      </div>
+    </details>
+  </div>
+</header>
